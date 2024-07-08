@@ -17,8 +17,8 @@ const Header = () => {
         <SheetHeader className="text-left text-lg font-semibold">Menu</SheetHeader>
         <div className="mt-2 flex flex-col gap-2">
           <Button variant="outline" className="w-full justify-start gap-2"><HomeIcon size={16} />Home</Button>
-          <Button variant="outline" className="w-full justify-start gap-2"><PercentIcon size={16} />Ofertas</Button>
-          <Button variant="outline" className="w-full justify-start gap-2"><ListOrderedIcon size={16} />Catálogo</Button>
+          <Button variant="outline" className="w-full justify-start gap-2"><PercentIcon size={16} />Consoles</Button>
+          <Button variant="outline" className="w-full justify-start gap-2"><ListOrderedIcon size={16} />Jogos</Button>
         </div>
       </SheetContent>
      </Sheet>
