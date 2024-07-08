@@ -2,6 +2,7 @@ import { HomeIcon, ListOrderedIcon, MenuIcon, PercentIcon, ShoppingCartIcon } fr
 import { Button } from "./button";
 import { Card } from "./card";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
         </div>
       </SheetContent>
      </Sheet>
-      <h1 className="text-lg font-semibold"><span className="text-primary font-bold">TheGames</span> Store</h1>
+      <Link to="/"><h1 className="text-lg font-semibold"><span className="text-primary font-bold">TheGames</span> Store</h1></Link>
       <Button size="icon" variant="outline">
         <ShoppingCartIcon />
       </Button>

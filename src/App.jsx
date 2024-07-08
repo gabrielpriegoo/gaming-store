@@ -1,10 +1,12 @@
-import Consoles from "./consoles/page";
-import Home from "./home/page";
+import { Outlet } from "react-router-dom";
+import Header from "../src/components/ui/header";
+import Footer from "../src/components/ui/footer";
 function App() {
   return (
     <>
-      <Home />
-      <Consoles />
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
 }

@@ -5,14 +5,14 @@ import { KeyboardIcon } from "lucide-react";
 const CategoryItems = () => {
     return (
         <>
-            <Link href="#">
+            <Link href="/jogos">
                 <Badge variant={"outline"} className="py-4 flex items-center justify-center gap-2 rounded-lg cursor-pointer select-none">
                     <KeyboardIcon size={16} />
                     <span className="font-bold text-xs">Jogos</span>
                 </Badge>
             </Link>
 
-            <Link href="#">
+            <Link href="/consoles">
                 <Badge variant={"outline"} className="py-4 flex items-center justify-center gap-2 rounded-lg cursor-pointer select-none">
                     <KeyboardIcon size={16} />
                     <span className="font-bold text-xs">Consoles</span>
