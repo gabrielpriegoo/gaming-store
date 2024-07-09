@@ -13,7 +13,7 @@ const Consoles = () => {
 
     return (
         <div>
-            <Badge variant={"outline"} className="py-4 flex items-center justify-center gap-2 rounded-lg cursor-pointer select-none mt-4">
+            <Badge variant={"outline"} className="py-4 flex items-center justify-center gap-2 rounded-none select-none mt-4">
                 <KeyboardIcon size={16} />
                 <span className="font-bold text-xs">Consoles</span>
             </Badge>

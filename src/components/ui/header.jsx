@@ -18,7 +18,7 @@ const Header = () => {
   }
 
   return (
-    <Card className="flex justify-between p-[1.875rem]">
+    <Card className="flex items-center justify-between p-[1.875rem] rounded-none">
       <Sheet open={openMenu} onOpenChange={setOpenMenu}>
         <SheetTrigger asChild>
           <Button size="icon" variant="outline">
@@ -35,9 +35,7 @@ const Header = () => {
           </div>
         </SheetContent>
       </Sheet>
-      
-      <Link to="/"><h1 className="text-lg font-semibold"><span className="text-primary font-bold">TheGames</span> Store</h1></Link>
-
+      <Link to="/"><h1 className="text-2xl font-semibold"><span className="bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text font-extrabold">Gaming</span> Store</h1></Link>
       <Sheet>
         <SheetTrigger asChild>
           <Button size="icon" variant="outline">
