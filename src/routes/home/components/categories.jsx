@@ -1,4 +1,4 @@
-import CategoryItems from "./category-item";
+import CategoryItems from "./categoryItem";
 
 const Categories = () => {
     return ( 

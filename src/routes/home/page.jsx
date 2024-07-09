@@ -1,7 +1,7 @@
 import Categories from "./components/categories";
 import bannerOff from "@/assets/banner-50off.png";
 import bannerSecond from "@/assets/banner-second.png";
-import ProductsItems from "./components/products-home";
+import ProductsItems from "./components/productsHome";
 
 
 const Home = () => {
