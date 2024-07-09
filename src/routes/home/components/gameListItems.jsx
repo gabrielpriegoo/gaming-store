@@ -1,11 +1,12 @@
-import ItemsList from "@/components/ui/product-item";
+import GameList from "@/components/ui/games-list";
 
-const ProductsItems = () => {
+
+const GameListItems = () => {
     return ( 
         <div className="w-full flex gap-4 overflow-x-auto px-5 mt-4 [&::-webkit-scrollbar]:hidden ">
-            <ItemsList />
+            <GameList />
         </div>
      );
 }
  
-export default ProductsItems;
+export default GameListItems;
