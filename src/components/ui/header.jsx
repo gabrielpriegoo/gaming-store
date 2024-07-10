@@ -38,12 +38,17 @@ const Header = () => {
       <Link to="/"><h1 className="text-2xl font-semibold"><span className="bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text font-extrabold">Gaming</span> Store</h1></Link>
       <Sheet>
         <SheetTrigger asChild>
-          <Button size="icon" variant="outline">
-            <ShoppingCartIcon />
-          </Button>
+          <div className="relative flex">
+            <Button size="icon" variant="outline">
+              <ShoppingCartIcon />
+            </Button>
+            <div className="w-[18px] h-[18px] bg-red-500 rounded-full -right-1.5 -top-1.5 absolute flex justify-center items-center">
+              <span className="text-[10px] font-medium select-none">0</span>
+            </div>
+          </div>
         </SheetTrigger>
         <SheetContent className="w-full">
-          <SheetHeader className="text-left text-lg font-semibold">Meu Carrinho</SheetHeader>
+          <SheetHeader className="text-left text-lg font-semibold select-none">Meu Carrinho</SheetHeader>
           <ShoppingCart />
         </SheetContent>
       </Sheet>
