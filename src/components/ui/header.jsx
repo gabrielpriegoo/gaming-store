@@ -42,7 +42,8 @@ const Header = () => {
             <ShoppingCartIcon />
           </Button>
         </SheetTrigger>
-        <SheetContent>
+        <SheetContent className="w-full">
+          <SheetHeader className="text-left text-lg font-semibold">Meu Carrinho</SheetHeader>
           <ShoppingCart />
         </SheetContent>
       </Sheet>

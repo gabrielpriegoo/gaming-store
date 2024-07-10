@@ -9,7 +9,7 @@ const ShoppingCart = () => {
     <div>
       <Badge variant={"outline"} className="py-4 flex items-center justify-center gap-2 select-none rounded-sm mt-4">
         <ShoppingBasket size={16} />
-        <span className="font-bold text-xs">Meu Carrinho</span>
+        <span className="font-bold text-xs">Ordens</span>
       </Badge>
       <Card className="mt-4 flex justify-around items-center gap-16">
         <div className="flex items-center max-w-full">
