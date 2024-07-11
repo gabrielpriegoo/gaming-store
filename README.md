@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como parte de um processo seletivo. Ele demonstra 
 - PostCSS
 
 ## Link deploy :
-teste-tecnico-front-end-gabriel-priego-lyi8a0s9l.vercel.app
+https://teste-tecnico-front-end-gabriel-priego-lyi8a0s9l.vercel.app/
 
 ## Considerações 
 
