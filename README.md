@@ -47,6 +47,8 @@ Para executar o projeto na sua máquina local, siga as instruções abaixo:
 1. Execute `npm install` para instalar todas as dependências.
 2. Execute `npm run dev` para iniciar o projeto localmente.
 
+⚠️ Lembre-se este projeto está somente com comportamento em tela mobile ( abra o devtools e teste em dimensões de celulares ) ⚠️
+
 ## Observações
 
 Este projeto foi desenvolvido com muita dedicação e representa o máximo do meu esforço. Qualquer contribuição é bem-vinda e será de grande ajuda!
