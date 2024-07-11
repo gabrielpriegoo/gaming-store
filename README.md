@@ -1,49 +1,42 @@
 # Gaming Store - Teste Técnico Front-End 🖥️
 
-Este projeto foi desenvolvido como parte de um processo seletivo. Ele demonstra minhas habilidades e conhecimentos adquiridos em 2 anos e 3 meses de estudo em desenvolvimento web. O projeto ainda está em fase de desenvolvimento e possui várias áreas para melhorias e implementações futuras.
+Este projeto foi desenvolvido como parte de um processo seletivo. Ele demonstra minhas habilidades e conhecimentos adquiridos em 2 anos e 3 meses de estudo em desenvolvimento web. O projeto ainda está em fase de desenvolvimento e possui várias áreas para melhorias e implementações.
 
 ## Tecnologias Utilizadas
 
-Este projeto é composto por uma stack moderna e poderosa, tanto no front-end quanto no back-end.
-
-## Link deploy front-end :
-https://vercel.com/gabrielpriegoos-projects/teste-tecnico-front-end-gabriel-priego
-
-### Front-end:
-
 - React
+- Vite
 - Redux
 - React Router
 - TailwindCSS
 - @shadcn/ui
 - React Icons
+- Lucide React
+- Prettier
 - ESLint
 - PostCSS
 
-## Considerações Iniciais
+## Link deploy :
+https://vercel.com/gabrielpriegoos-projects/teste-tecnico-front-end-gabriel-priego
+
+## Considerações 
 
 O projeto ainda não está finalizado e possui as seguintes limitações e funcionalidades em desenvolvimento:
 
 - ❌ Desktop / Tablet
-- ❌ Sincronizar Usuário 
-- ❌ Testes não incluídos
-- ❌ Docker não configurado
-- ❌ Swagger para documentação de API não incluído
-- ❌ Mensagens de avisos
+- ❌ Home / Consoles / Jogos
+- ❌ Carrinho de compra ( total da compra / exclusão de item / incluindo 2 produtos )
+- ❌ Imagens
+- ❌ E alguns detalhes ...
 
 Funcionalidades que estão operacionais:
 
-- ✅ Front-end:
-- ✅ Tela de Login
-- ✅ Registro
-- ✅ Dashboard
-- ✅ Lista Pokemons
-- ✅ Capturar Pokemons
-- ✅ Back-end:
-- ✅ Criar Novo Usuario
-- ✅ Logar com Novo Usuario
-- ✅ Receber Pokemons
-- ✅ Ler Pokemons
+- ✅ Mobile
+- ✅ Layout ( Header, Footer, Menu, Carrinho )
+- ✅ Componentes Shopping Cart ( Carrinho de compra ).
+- ✅ Listagem de produtos ( home / rotas / carrinho de compra ).
+- ✅ Botão incluindo produtos no carrinho.
+- ✅ Scrollbar horizontal de destaque de produtos.
 
 ## Como Rodar o Projeto Localmente
 
@@ -54,24 +47,8 @@ Para executar o projeto na sua máquina local, siga as instruções abaixo:
 1. Execute `npm install` para instalar todas as dependências.
 2. Execute `npm run dev` para iniciar o projeto localmente.
 
-### Back-end:
-
-1. Preencha todos os requisitos do arquivo `.env.example`.
-2. Certificando que você possui algum banco de dados instalado na sua máquina.
-3. Conecte-se a um gerenciador de banco de dados. Recomendo o uso do pgAdmin4 para PostgreSQL.
-4. Crie uma tabela nova.
-5. Crie uma migration após preencher todos os requisitos no `.env.example`:
-   - Execute `npm run migration:genarete` seguido por `npm run migration:run`.
-6. Utilizo o Beekeeper para visualização das tabelas criadas.
-
-Após seguir as instruções acima, você pode criar um novo usuário e logar com o mesmo.
-
 ## Observações
 
-Muitas informações úteis podem ser obtidas no console do DevTools, incluindo respostas para algumas funções não finalizadas, como a ação de coletar um Pokémon.
-
-Este projeto foi desenvolvido com muita dedicação e representa o máximo do meu conhecimento e esforço ao longo de 1 ano e 5 meses de estudo. Qualquer contribuição é bem-vinda e será de grande ajuda.
-
-Para contato, você pode me encontrar nos links disponíveis na bio.
+Este projeto foi desenvolvido com muita dedicação e representa o máximo do meu esforço. Qualquer contribuição é bem-vinda e será de grande ajuda!
 
 *The code never stops!* 👨‍💻
