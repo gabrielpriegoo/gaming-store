@@ -4,11 +4,22 @@ import { Card } from "./card";
 import { Link } from "react-router-dom";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ShoppingCart from "./shopping-cart";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+  const [totalQuantity, setTotalQuantity] = useState(0)
   const [openMenu, setOpenMenu] = useState(false)
+
+  const carts = useSelector(store => store.cart.items);
+  useEffect(() => {
+    let total = 0
+    carts.forEach(item => {
+      total += item.quantity
+    })
+    setTotalQuantity(total)
+  })
 
   const navigate = useNavigate()
 
@@ -43,7 +54,7 @@ const Header = () => {
               <ShoppingCartIcon />
             </Button>
             <div className="w-[18px] h-[18px] bg-red-500 rounded-full -right-1.5 -top-1.5 absolute flex justify-center items-center">
-              <span className="text-[10px] font-medium select-none">0</span>
+              <span className="text-[10px] font-medium select-none">{totalQuantity}</span>
             </div>
           </div>
         </SheetTrigger>
