@@ -1,28 +1,20 @@
 import { ChevronLeft, ChevronRight, Trash2 } from "lucide-react"
 import { Button } from "./button"
 import { Card, CardHeader } from "./card"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useSelector } from "react-redux";
-import { consolesData, gameData } from "../../api";
 
 const CartItem = () => {
     const [quantity, setQuantity] = useState(1);
-    // const [detail, setDetail] = useState([]);
-    // const {productId, quantityItem} = props.data
 
-    // useEffect(() => {
-    //    const findDetail = consoleData.filter(item => item.id === productId)[0];
-    //    setDetail(findDetail);
-    // }, [productId])
+  const carts = useSelector(store => store.cart.items);
 
-    const carts = useSelector(store => store.cart.items);
-
-    const handleMinusQuantity = () => {
-        setQuantity(quantity - 1 < 1 ? 1 : quantity - 1);
-    }
-    const handlePlusQuantity = () => {
-        setQuantity(quantity + 1);
-    }
+  const handleMinusQuantity = () => {
+    setQuantity(quantity - 1 < 1 ? 1 : quantity - 1);
+  }
+  const handlePlusQuantity = () => {
+    setQuantity(quantity + 1);
+  }
     return (
         <div>
             <Card className="mt-4 flex justify-around items-center ">

@@ -18,12 +18,6 @@ const cartSlice = createSlice({
         state.items.push({ productId, quantity });
       }
       state.items.push({ productId, quantity });
-      // const existingItem = state.items.find(item => item.productId === productId);
-      // if (existingItem) {
-      //   existingItem.quantity += quantity;
-      // } else {
-      //   state.items.push({ productId, quantity });
-      // }
     },
   },
 });

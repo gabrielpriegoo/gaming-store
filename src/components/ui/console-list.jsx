@@ -16,10 +16,7 @@ const ConsoleList = ({ data }) => {
             quantity: 1 
         }));
     }
-
-
-    console.log(carts)
-
+    
     return (
         <div className="h-[330px]">
             

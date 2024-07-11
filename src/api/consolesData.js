@@ -11,7 +11,7 @@ export const consolesData = [
     name: 'Xbox Series X',
     category: 'console',
     price: 399.99,
-    image: 'assets/products/console2.jpg'
+    image: 'assets/products/xbox.png'
   },
   {
     id: 3,

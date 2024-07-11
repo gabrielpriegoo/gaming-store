@@ -16,7 +16,9 @@ const ShoppingCart = () => {
         <ShoppingBasket size={16} />
         <span className="font-bold text-xs">Ordens</span>
       </Badge>
-        <CartItem />
+      {carts.map((item, key) => (
+        <CartItem key={key} data={item} />
+      ))}
       <div className="mt-4 select-none">
         <h1>Total: R$ 10.600</h1>
       </div>
