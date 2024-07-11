@@ -1,8 +1,56 @@
-# React + Vite
+# Gaming Store - Teste Técnico Front-End 🖥️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de um processo seletivo. Ele demonstra minhas habilidades e conhecimentos adquiridos em 2 anos e 3 meses de estudo em desenvolvimento web. O projeto ainda está em fase de desenvolvimento e possui várias áreas para melhorias e implementações.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- Redux
+- React Router
+- TailwindCSS
+- @shadcn/ui
+- React Icons
+- Lucide React
+- Prettier
+- ESLint
+- PostCSS
+
+## Link deploy :
+https://teste-tecnico-front-end-gabriel-priego-lyi8a0s9l.vercel.app/
+
+## Considerações 
+
+O projeto ainda não está finalizado e possui as seguintes limitações e funcionalidades em desenvolvimento:
+
+- ❌ Desktop / Tablet
+- ❌ Home / Consoles / Jogos
+- ❌ Carrinho de compra ( total da compra / exclusão de item / incluindo 2 produtos )
+- ❌ Imagens
+- ❌ E alguns detalhes ...
+
+Funcionalidades que estão operacionais:
+
+- ✅ Mobile
+- ✅ Layout ( Header, Footer, Menu, Carrinho )
+- ✅ Componentes Shopping Cart ( Carrinho de compra ).
+- ✅ Listagem de produtos ( home / rotas / carrinho de compra ).
+- ✅ Botão incluindo produtos no carrinho.
+- ✅ Scrollbar horizontal de destaque de produtos.
+
+## Como Rodar o Projeto Localmente
+
+Para executar o projeto na sua máquina local, siga as instruções abaixo:
+
+### Front-end:
+
+1. Execute `npm install` para instalar todas as dependências.
+2. Execute `npm run dev` para iniciar o projeto localmente.
+
+⚠️ Lembre-se este projeto está somente com comportamento em tela mobile ( abra o devtools e teste em dimensões de celulares ) ⚠️
+
+## Observações
+
+Este projeto foi desenvolvido com muita dedicação e representa o máximo do meu esforço. Qualquer contribuição é bem-vinda e será de grande ajuda!
+
+*The code never stops!* 👨‍💻
