@@ -17,8 +17,8 @@ const GameList = () => {
             <div className="flex gap-4 mt-2">
                 {data.map((game) => (
                     <div key={game.id} className="w-[156px] h-[280px]">
-                        <div className=" w-full h-[170px] rounded-xl bg-[#1A1A1A]">
-                            <img src={game.image} alt={game.name} className="w-full h-full object-cover rounded-xl" />
+                        <div className="w-full h-[170px] rounded-xl bg-[#1A1A1A] flex justify-center items-center">
+                            <img src={game.image} alt={game.name} className="object-cover rounded-xl w-[120px]" />
                         </div>
                         <div className="h-12 flex flex-col items-center mt-3">
                             <span className="text-base font-medium">{game.name}</span>
