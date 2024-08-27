@@ -1,4 +1,4 @@
-# Gaming Store - Teste Técnico Front-End 🖥️
+# Gaming Store 🖥️
 
 Este projeto foi desenvolvido como parte de um processo seletivo. Ele demonstra minhas habilidades e conhecimentos adquiridos em 2 anos e 3 meses de estudo em desenvolvimento web. O projeto ainda está em fase de desenvolvimento e possui várias áreas para melhorias e implementações.
 
